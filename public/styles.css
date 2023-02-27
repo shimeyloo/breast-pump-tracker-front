@@ -1,0 +1,125 @@
+@font-face {
+  font-family: SweetHipster;
+  src: url('./font/SweetHipster.ttf');
+}
+
+@font-face {
+  font-family: KgCallMeMaybe;
+  src: url('./font/KgCallMeMaybe.ttf');
+}
+
+body {
+  background: rgb(205, 205, 205);
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  margin: 0px 0px 0px 0px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+#navBarTitle {
+  font-family: "SweetHipster";
+  font-size: 60px;
+}
+
+.style-nav {
+  background-color: rgb(136,132,216);
+  box-shadow: 0 1px 7px rgb(138, 137, 137);
+}
+
+.navBarLogo {
+  margin-right: 15px;
+}
+
+.logoTitle {
+  margin-top: 20px;
+  margin: auto;
+}
+
+#addForm {
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(179, 179, 179);
+  border-radius: 5px;
+  background-color: white;
+  width: 30%;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.table-container {
+  padding: 20px;
+  width: 65%;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(179, 179, 179);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.graph-container {
+  padding: 10px;
+  margin: 20px; 
+  background-color: white;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(179, 179, 179);
+  border-radius: 5px;
+}
+
+#stats-table {
+  margin: auto; 
+  width: 40%;
+  padding: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.welcome-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 5em; 
+  background-color: white;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(179, 179, 179);
+  border-radius: 5px;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.promo-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 5em; 
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(179, 179, 179);
+  border-radius: 5px;
+  
+}
+
+.promo-container h2 {
+  color: rgb(136,132,216);
+  
+}
+
